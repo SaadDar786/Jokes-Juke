@@ -14,10 +14,38 @@
 
 @implementation AppDelegate
 
+@synthesize jokesController = _jokesController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.jokesController = [[JokesViewController alloc] initWithNibName:@"JokesViewController" bundle:nil];
+    
+    
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:self.jokesController];
+    
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
+    
+    NSString *firstUserName = @"nick";
+    NSString *secondUserName = @"nick";
+    
+    if (firstUserName  == secondUserName)
+    {
+        NSLog(@"areEqual");
+    }
+    else
+    {
+        NSLog(@"areNotEqual");
+    }
+    
     return YES;
+    
 }
 
 

@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C9CC65D3070D3E9398E0CC /* libPods-Jokes JukeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7A1CCEA5B7789DE7B875E8 /* libPods-Jokes JukeTests.a */; };
+		49AD406E533E67C0D6B46E86 /* libPods-Jokes JukeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0801A56231B95AA5E4BEBC2E /* libPods-Jokes JukeUITests.a */; };
+		BC05EDCD037A28D2537FFD3D /* libPods-Jokes Juke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 727BDEFD67D3B60243C5606D /* libPods-Jokes Juke.a */; };
+		E7495DE61E615EDA00C4F877 /* JokesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DE51E615EDA00C4F877 /* JokesRequest.m */; };
+		E7495DE91E615EF200C4F877 /* JokesFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DE81E615EF200C4F877 /* JokesFacade.m */; };
+		E7495DEE1E615F2A00C4F877 /* JokesService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DED1E615F2A00C4F877 /* JokesService.m */; };
+		E7495DF31E615F4000C4F877 /* Joke.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DF01E615F4000C4F877 /* Joke.m */; };
+		E7495DF41E615F4000C4F877 /* Jokes.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DF21E615F4000C4F877 /* Jokes.m */; };
+		E7495DF71E615F7A00C4F877 /* JokesModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DF61E615F7A00C4F877 /* JokesModelView.m */; };
+		E7495DFC1E615FA300C4F877 /* JokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DF91E615FA300C4F877 /* JokesViewController.m */; };
+		E7495DFD1E615FA300C4F877 /* JokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495DFB1E615FA300C4F877 /* JokeTableViewCell.m */; };
+		E7495E001E615FAF00C4F877 /* JokesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7495DFE1E615FAF00C4F877 /* JokesViewController.xib */; };
+		E7495E011E615FAF00C4F877 /* JokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7495DFF1E615FAF00C4F877 /* JokeTableViewCell.xib */; };
+		E7495E061E615FCD00C4F877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495E031E615FCD00C4F877 /* AppDelegate.m */; };
+		E7495E071E615FCD00C4F877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495E051E615FCD00C4F877 /* ViewController.m */; };
+		E79D93C51E4ED55C008F389C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E79D93C41E4ED55C008F389C /* Utils.m */; };
+		E79D93C91E4ED641008F389C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E79D93C81E4ED641008F389C /* Reachability.m */; };
 		E7E7EE551E4EB859002F1F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7EE541E4EB859002F1F2A /* main.m */; };
-		E7E7EE581E4EB859002F1F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7EE571E4EB859002F1F2A /* AppDelegate.m */; };
-		E7E7EE5B1E4EB859002F1F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7EE5A1E4EB859002F1F2A /* ViewController.m */; };
 		E7E7EE5E1E4EB859002F1F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E7EE5C1E4EB859002F1F2A /* Main.storyboard */; };
 		E7E7EE601E4EB859002F1F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E7EE5F1E4EB859002F1F2A /* Assets.xcassets */; };
 		E7E7EE631E4EB859002F1F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E7EE611E4EB859002F1F2A /* LaunchScreen.storyboard */; };
 		E7E7EE6E1E4EB859002F1F2A /* Jokes_JukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7EE6D1E4EB859002F1F2A /* Jokes_JukeTests.m */; };
 		E7E7EE791E4EB859002F1F2A /* Jokes_JukeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7EE781E4EB859002F1F2A /* Jokes_JukeUITests.m */; };
+		E7E7EE8A1E4EB996002F1F2A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7EE891E4EB996002F1F2A /* CFNetwork.framework */; };
+		E7E7EE8C1E4EB9A3002F1F2A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7EE8B1E4EB9A3002F1F2A /* CoreData.framework */; };
+		E7E7EE8E1E4EB9AE002F1F2A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7EE8D1E4EB9AE002F1F2A /* MobileCoreServices.framework */; };
+		E7E7EE901E4EB9BB002F1F2A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7EE8F1E4EB9BB002F1F2A /* Security.framework */; };
+		E7E7EE921E4EB9C2002F1F2A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7EE911E4EB9C2002F1F2A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +55,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0801A56231B95AA5E4BEBC2E /* libPods-Jokes JukeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jokes JukeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203D1D1899D30E8E29C61A99 /* Pods-Jokes JukeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes JukeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes JukeTests/Pods-Jokes JukeTests.release.xcconfig"; sourceTree = "<group>"; };
+		39B5184C9341ACEAF68F3480 /* Pods-Jokes JukeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes JukeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes JukeUITests/Pods-Jokes JukeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		537C3CDDE1AFC18C942E40C9 /* Pods-Jokes Juke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes Juke.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes Juke/Pods-Jokes Juke.release.xcconfig"; sourceTree = "<group>"; };
+		6FDDB55EB03E717B9411B033 /* Pods-Jokes JukeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes JukeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes JukeUITests/Pods-Jokes JukeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7056C0D33CD3B4BD0E947E10 /* Pods-Jokes JukeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes JukeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes JukeTests/Pods-Jokes JukeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		727BDEFD67D3B60243C5606D /* libPods-Jokes Juke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jokes Juke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7A1CCEA5B7789DE7B875E8 /* libPods-Jokes JukeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jokes JukeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7495DE41E615EDA00C4F877 /* JokesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokesRequest.h; path = "Web Services/Request/JokesRequest.h"; sourceTree = "<group>"; };
+		E7495DE51E615EDA00C4F877 /* JokesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokesRequest.m; path = "Web Services/Request/JokesRequest.m"; sourceTree = "<group>"; };
+		E7495DE71E615EF200C4F877 /* JokesFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokesFacade.h; path = "Web Services/Facade/JokesFacade.h"; sourceTree = "<group>"; };
+		E7495DE81E615EF200C4F877 /* JokesFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokesFacade.m; path = "Web Services/Facade/JokesFacade.m"; sourceTree = "<group>"; };
+		E7495DEA1E615F0700C4F877 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = "Web Services/Config/Settings.h"; sourceTree = "<group>"; };
+		E7495DEB1E615F1800C4F877 /* JokesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokesDelegate.h; path = Controllers/JokesDelegate.h; sourceTree = "<group>"; };
+		E7495DEC1E615F2A00C4F877 /* JokesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokesService.h; path = "Web Services/Service/JokesService.h"; sourceTree = "<group>"; };
+		E7495DED1E615F2A00C4F877 /* JokesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokesService.m; path = "Web Services/Service/JokesService.m"; sourceTree = "<group>"; };
+		E7495DEF1E615F4000C4F877 /* Joke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joke.h; path = "Web Services/Model/Joke.h"; sourceTree = "<group>"; };
+		E7495DF01E615F4000C4F877 /* Joke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Joke.m; path = "Web Services/Model/Joke.m"; sourceTree = "<group>"; };
+		E7495DF11E615F4000C4F877 /* Jokes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jokes.h; path = "Web Services/Model/Jokes.h"; sourceTree = "<group>"; };
+		E7495DF21E615F4000C4F877 /* Jokes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jokes.m; path = "Web Services/Model/Jokes.m"; sourceTree = "<group>"; };
+		E7495DF51E615F7A00C4F877 /* JokesModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokesModelView.h; path = Controllers/JokesModelView.h; sourceTree = "<group>"; };
+		E7495DF61E615F7A00C4F877 /* JokesModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokesModelView.m; path = Controllers/JokesModelView.m; sourceTree = "<group>"; };
+		E7495DF81E615FA300C4F877 /* JokesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokesViewController.h; path = Controllers/JokesViewController.h; sourceTree = "<group>"; };
+		E7495DF91E615FA300C4F877 /* JokesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokesViewController.m; path = Controllers/JokesViewController.m; sourceTree = "<group>"; };
+		E7495DFA1E615FA300C4F877 /* JokeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokeTableViewCell.h; path = Controllers/JokeTableViewCell.h; sourceTree = "<group>"; };
+		E7495DFB1E615FA300C4F877 /* JokeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokeTableViewCell.m; path = Controllers/JokeTableViewCell.m; sourceTree = "<group>"; };
+		E7495DFE1E615FAF00C4F877 /* JokesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JokesViewController.xib; path = UI/JokesViewController.xib; sourceTree = "<group>"; };
+		E7495DFF1E615FAF00C4F877 /* JokeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JokeTableViewCell.xib; path = UI/JokeTableViewCell.xib; sourceTree = "<group>"; };
+		E7495E021E615FCD00C4F877 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Controllers/AppDelegate.h; sourceTree = "<group>"; };
+		E7495E031E615FCD00C4F877 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Controllers/AppDelegate.m; sourceTree = "<group>"; };
+		E7495E041E615FCD00C4F877 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
+		E7495E051E615FCD00C4F877 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
+		E79D93C31E4ED55C008F389C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		E79D93C41E4ED55C008F389C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		E79D93C71E4ED641008F389C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E79D93C81E4ED641008F389C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E7E7EE501E4EB859002F1F2A /* Jokes Juke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jokes Juke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7EE541E4EB859002F1F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E7E7EE561E4EB859002F1F2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E7E7EE571E4EB859002F1F2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E7E7EE591E4EB859002F1F2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E7E7EE5A1E4EB859002F1F2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E7E7EE5D1E4EB859002F1F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7E7EE5F1E4EB859002F1F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E7EE621E4EB859002F1F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +103,12 @@
 		E7E7EE741E4EB859002F1F2A /* Jokes JukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jokes JukeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7EE781E4EB859002F1F2A /* Jokes_JukeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jokes_JukeUITests.m; sourceTree = "<group>"; };
 		E7E7EE7A1E4EB859002F1F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E7EE891E4EB996002F1F2A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E7E7EE8B1E4EB9A3002F1F2A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E7E7EE8D1E4EB9AE002F1F2A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E7E7EE8F1E4EB9BB002F1F2A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E7E7EE911E4EB9C2002F1F2A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F271D6C9EB5C8CD970D2ACCF /* Pods-Jokes Juke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes Juke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes Juke/Pods-Jokes Juke.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +116,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E7EE921E4EB9C2002F1F2A /* SystemConfiguration.framework in Frameworks */,
+				E7E7EE901E4EB9BB002F1F2A /* Security.framework in Frameworks */,
+				E7E7EE8E1E4EB9AE002F1F2A /* MobileCoreServices.framework in Frameworks */,
+				E7E7EE8C1E4EB9A3002F1F2A /* CoreData.framework in Frameworks */,
+				E7E7EE8A1E4EB996002F1F2A /* CFNetwork.framework in Frameworks */,
+				BC05EDCD037A28D2537FFD3D /* libPods-Jokes Juke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C9CC65D3070D3E9398E0CC /* libPods-Jokes JukeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +137,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49AD406E533E67C0D6B46E86 /* libPods-Jokes JukeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6223723886EDD5148EAB825A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F271D6C9EB5C8CD970D2ACCF /* Pods-Jokes Juke.debug.xcconfig */,
+				537C3CDDE1AFC18C942E40C9 /* Pods-Jokes Juke.release.xcconfig */,
+				7056C0D33CD3B4BD0E947E10 /* Pods-Jokes JukeTests.debug.xcconfig */,
+				203D1D1899D30E8E29C61A99 /* Pods-Jokes JukeTests.release.xcconfig */,
+				6FDDB55EB03E717B9411B033 /* Pods-Jokes JukeUITests.debug.xcconfig */,
+				39B5184C9341ACEAF68F3480 /* Pods-Jokes JukeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7495DCD1E5A311D00C4F877 /* Model View */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DF51E615F7A00C4F877 /* JokesModelView.h */,
+				E7495DF61E615F7A00C4F877 /* JokesModelView.m */,
+			);
+			name = "Model View";
+			sourceTree = "<group>";
+		};
+		E79D93BD1E4ED201008F389C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DE41E615EDA00C4F877 /* JokesRequest.h */,
+				E7495DE51E615EDA00C4F877 /* JokesRequest.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		E79D93C11E4ED534008F389C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E79D93C61E4ED631008F389C /* Reachibility */,
+				E79D93C21E4ED546008F389C /* Utility */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E79D93C21E4ED546008F389C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E79D93C31E4ED55C008F389C /* Utils.h */,
+				E79D93C41E4ED55C008F389C /* Utils.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		E79D93C61E4ED631008F389C /* Reachibility */ = {
+			isa = PBXGroup;
+			children = (
+				E79D93C71E4ED641008F389C /* Reachability.h */,
+				E79D93C81E4ED641008F389C /* Reachability.m */,
+			);
+			name = Reachibility;
+			sourceTree = "<group>";
+		};
+		E79D93CD1E4FEED0008F389C /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DCD1E5A311D00C4F877 /* Model View */,
+				E79D93CE1E4FEEDE008F389C /* Controller */,
+			);
+			name = Jokes;
+			sourceTree = "<group>";
+		};
+		E79D93CE1E4FEEDE008F389C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DFE1E615FAF00C4F877 /* JokesViewController.xib */,
+				E7495DFF1E615FAF00C4F877 /* JokeTableViewCell.xib */,
+				E7495DF81E615FA300C4F877 /* JokesViewController.h */,
+				E7495DF91E615FA300C4F877 /* JokesViewController.m */,
+				E7495DFA1E615FA300C4F877 /* JokeTableViewCell.h */,
+				E7495DFB1E615FA300C4F877 /* JokeTableViewCell.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E7E7EE471E4EB859002F1F2A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +231,8 @@
 				E7E7EE6C1E4EB859002F1F2A /* Jokes JukeTests */,
 				E7E7EE771E4EB859002F1F2A /* Jokes JukeUITests */,
 				E7E7EE511E4EB859002F1F2A /* Products */,
+				6223723886EDD5148EAB825A /* Pods */,
+				FB935F09B3AA8B274D708095 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +249,13 @@
 		E7E7EE521E4EB859002F1F2A /* Jokes Juke */ = {
 			isa = PBXGroup;
 			children = (
-				E7E7EE561E4EB859002F1F2A /* AppDelegate.h */,
-				E7E7EE571E4EB859002F1F2A /* AppDelegate.m */,
-				E7E7EE591E4EB859002F1F2A /* ViewController.h */,
-				E7E7EE5A1E4EB859002F1F2A /* ViewController.m */,
+				E79D93C11E4ED534008F389C /* Utilities */,
+				E7E7EE871E4EB870002F1F2A /* Web Services */,
+				E7E7EE861E4EB866002F1F2A /* Module */,
+				E7495E021E615FCD00C4F877 /* AppDelegate.h */,
+				E7495E031E615FCD00C4F877 /* AppDelegate.m */,
+				E7495E041E615FCD00C4F877 /* ViewController.h */,
+				E7495E051E615FCD00C4F877 /* ViewController.m */,
 				E7E7EE5C1E4EB859002F1F2A /* Main.storyboard */,
 				E7E7EE5F1E4EB859002F1F2A /* Assets.xcassets */,
 				E7E7EE611E4EB859002F1F2A /* LaunchScreen.storyboard */,
@@ -140,6 +291,87 @@
 			path = "Jokes JukeUITests";
 			sourceTree = "<group>";
 		};
+		E7E7EE861E4EB866002F1F2A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E79D93CD1E4FEED0008F389C /* Jokes */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		E7E7EE871E4EB870002F1F2A /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7EE9E1E4EC3D0002F1F2A /* Jokes */,
+			);
+			name = "Web Services";
+			sourceTree = "<group>";
+		};
+		E7E7EE881E4EB879002F1F2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DEF1E615F4000C4F877 /* Joke.h */,
+				E7495DF01E615F4000C4F877 /* Joke.m */,
+				E7495DF11E615F4000C4F877 /* Jokes.h */,
+				E7495DF21E615F4000C4F877 /* Jokes.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E7E7EE9E1E4EC3D0002F1F2A /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				E79D93BD1E4ED201008F389C /* Operations */,
+				E7E7EEA21E4EC701002F1F2A /* Facade */,
+				E7E7EEA01E4EC463002F1F2A /* Config */,
+				E7E7EE9F1E4EC3E0002F1F2A /* Service */,
+				E7E7EE881E4EB879002F1F2A /* Model */,
+			);
+			name = Jokes;
+			sourceTree = "<group>";
+		};
+		E7E7EE9F1E4EC3E0002F1F2A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DEC1E615F2A00C4F877 /* JokesService.h */,
+				E7495DED1E615F2A00C4F877 /* JokesService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		E7E7EEA01E4EC463002F1F2A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DEB1E615F1800C4F877 /* JokesDelegate.h */,
+				E7495DEA1E615F0700C4F877 /* Settings.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E7E7EEA21E4EC701002F1F2A /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DE71E615EF200C4F877 /* JokesFacade.h */,
+				E7495DE81E615EF200C4F877 /* JokesFacade.m */,
+			);
+			name = Facade;
+			sourceTree = "<group>";
+		};
+		FB935F09B3AA8B274D708095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7EE911E4EB9C2002F1F2A /* SystemConfiguration.framework */,
+				E7E7EE8F1E4EB9BB002F1F2A /* Security.framework */,
+				E7E7EE8D1E4EB9AE002F1F2A /* MobileCoreServices.framework */,
+				E7E7EE8B1E4EB9A3002F1F2A /* CoreData.framework */,
+				E7E7EE891E4EB996002F1F2A /* CFNetwork.framework */,
+				727BDEFD67D3B60243C5606D /* libPods-Jokes Juke.a */,
+				8D7A1CCEA5B7789DE7B875E8 /* libPods-Jokes JukeTests.a */,
+				0801A56231B95AA5E4BEBC2E /* libPods-Jokes JukeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +379,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E7EE7D1E4EB859002F1F2A /* Build configuration list for PBXNativeTarget "Jokes Juke" */;
 			buildPhases = (
+				B5F248EC62A2719FBC48FAAA /* [CP] Check Pods Manifest.lock */,
 				E7E7EE4C1E4EB859002F1F2A /* Sources */,
 				E7E7EE4D1E4EB859002F1F2A /* Frameworks */,
 				E7E7EE4E1E4EB859002F1F2A /* Resources */,
+				C4F6EFBB12FC4C58CC58C390 /* [CP] Embed Pods Frameworks */,
+				3A04E0E879644B4E72463655 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +399,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E7EE801E4EB859002F1F2A /* Build configuration list for PBXNativeTarget "Jokes JukeTests" */;
 			buildPhases = (
+				64929CC0E51166CD235B127F /* [CP] Check Pods Manifest.lock */,
 				E7E7EE651E4EB859002F1F2A /* Sources */,
 				E7E7EE661E4EB859002F1F2A /* Frameworks */,
 				E7E7EE671E4EB859002F1F2A /* Resources */,
+				1A4BCCE919D9944B905D9C25 /* [CP] Embed Pods Frameworks */,
+				911B40DC979F597289BE9AF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +420,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E7EE831E4EB859002F1F2A /* Build configuration list for PBXNativeTarget "Jokes JukeUITests" */;
 			buildPhases = (
+				B47A49A08B08C93B3B613E52 /* [CP] Check Pods Manifest.lock */,
 				E7E7EE701E4EB859002F1F2A /* Sources */,
 				E7E7EE711E4EB859002F1F2A /* Frameworks */,
 				E7E7EE721E4EB859002F1F2A /* Resources */,
+				5B0FE1AEA0A982032AC28850 /* [CP] Embed Pods Frameworks */,
+				8F081B21CF8E8FC5166C5C82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +489,9 @@
 			files = (
 				E7E7EE631E4EB859002F1F2A /* LaunchScreen.storyboard in Resources */,
 				E7E7EE601E4EB859002F1F2A /* Assets.xcassets in Resources */,
+				E7495E011E615FAF00C4F877 /* JokeTableViewCell.xib in Resources */,
 				E7E7EE5E1E4EB859002F1F2A /* Main.storyboard in Resources */,
+				E7495E001E615FAF00C4F877 /* JokesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +511,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A4BCCE919D9944B905D9C25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes JukeTests/Pods-Jokes JukeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A04E0E879644B4E72463655 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes Juke/Pods-Jokes Juke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0FE1AEA0A982032AC28850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes JukeUITests/Pods-Jokes JukeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64929CC0E51166CD235B127F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F081B21CF8E8FC5166C5C82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes JukeUITests/Pods-Jokes JukeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911B40DC979F597289BE9AF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes JukeTests/Pods-Jokes JukeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B47A49A08B08C93B3B613E52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F248EC62A2719FBC48FAAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F6EFBB12FC4C58CC58C390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes Juke/Pods-Jokes Juke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7E7EE4C1E4EB859002F1F2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E7EE5B1E4EB859002F1F2A /* ViewController.m in Sources */,
-				E7E7EE581E4EB859002F1F2A /* AppDelegate.m in Sources */,
+				E79D93C51E4ED55C008F389C /* Utils.m in Sources */,
+				E7495DE61E615EDA00C4F877 /* JokesRequest.m in Sources */,
+				E7495DFD1E615FA300C4F877 /* JokeTableViewCell.m in Sources */,
+				E7495DF41E615F4000C4F877 /* Jokes.m in Sources */,
+				E7495DF31E615F4000C4F877 /* Joke.m in Sources */,
+				E7495DEE1E615F2A00C4F877 /* JokesService.m in Sources */,
+				E7495E071E615FCD00C4F877 /* ViewController.m in Sources */,
+				E7495DE91E615EF200C4F877 /* JokesFacade.m in Sources */,
+				E7495DF71E615F7A00C4F877 /* JokesModelView.m in Sources */,
+				E7495E061E615FCD00C4F877 /* AppDelegate.m in Sources */,
 				E7E7EE551E4EB859002F1F2A /* main.m in Sources */,
+				E79D93C91E4ED641008F389C /* Reachability.m in Sources */,
+				E7495DFC1E615FA300C4F877 /* JokesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +813,17 @@
 		};
 		E7E7EE7E1E4EB859002F1F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F271D6C9EB5C8CD970D2ACCF /* Pods-Jokes Juke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+				);
 				INFOPLIST_FILE = "Jokes Juke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magicminds.Jokes-Juke";
@@ -433,8 +833,17 @@
 		};
 		E7E7EE7F1E4EB859002F1F2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537C3CDDE1AFC18C942E40C9 /* Pods-Jokes Juke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+				);
 				INFOPLIST_FILE = "Jokes Juke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magicminds.Jokes-Juke";
@@ -444,6 +853,7 @@
 		};
 		E7E7EE811E4EB859002F1F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7056C0D33CD3B4BD0E947E10 /* Pods-Jokes JukeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Jokes JukeTests/Info.plist";
@@ -456,6 +866,7 @@
 		};
 		E7E7EE821E4EB859002F1F2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203D1D1899D30E8E29C61A99 /* Pods-Jokes JukeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Jokes JukeTests/Info.plist";
@@ -468,6 +879,7 @@
 		};
 		E7E7EE841E4EB859002F1F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDDB55EB03E717B9411B033 /* Pods-Jokes JukeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Jokes JukeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +891,7 @@
 		};
 		E7E7EE851E4EB859002F1F2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B5184C9341ACEAF68F3480 /* Pods-Jokes JukeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Jokes JukeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +920,7 @@
 				E7E7EE7F1E4EB859002F1F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E7EE801E4EB859002F1F2A /* Build configuration list for PBXNativeTarget "Jokes JukeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +929,7 @@
 				E7E7EE821E4EB859002F1F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E7EE831E4EB859002F1F2A /* Build configuration list for PBXNativeTarget "Jokes JukeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +938,7 @@
 				E7E7EE851E4EB859002F1F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
