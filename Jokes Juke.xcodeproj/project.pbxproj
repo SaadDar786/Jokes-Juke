@@ -22,8 +22,8 @@
 		E7495E011E615FAF00C4F877 /* JokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7495DFF1E615FAF00C4F877 /* JokeTableViewCell.xib */; };
 		E7495E061E615FCD00C4F877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495E031E615FCD00C4F877 /* AppDelegate.m */; };
 		E7495E071E615FCD00C4F877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495E051E615FCD00C4F877 /* ViewController.m */; };
-		E79D93C51E4ED55C008F389C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E79D93C41E4ED55C008F389C /* Utils.m */; };
-		E79D93C91E4ED641008F389C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E79D93C81E4ED641008F389C /* Reachability.m */; };
+		E7495E0A1E617E5500C4F877 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495E091E617E5500C4F877 /* Reachability.m */; };
+		E7495E0D1E617E6900C4F877 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E7495E0C1E617E6900C4F877 /* Utils.m */; };
 		E7E7EE551E4EB859002F1F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7EE541E4EB859002F1F2A /* main.m */; };
 		E7E7EE5E1E4EB859002F1F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E7EE5C1E4EB859002F1F2A /* Main.storyboard */; };
 		E7E7EE601E4EB859002F1F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E7EE5F1E4EB859002F1F2A /* Assets.xcassets */; };
@@ -87,10 +87,10 @@
 		E7495E031E615FCD00C4F877 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Controllers/AppDelegate.m; sourceTree = "<group>"; };
 		E7495E041E615FCD00C4F877 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
 		E7495E051E615FCD00C4F877 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
-		E79D93C31E4ED55C008F389C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		E79D93C41E4ED55C008F389C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		E79D93C71E4ED641008F389C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		E79D93C81E4ED641008F389C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E7495E081E617E5500C4F877 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Utils/Reachability.h; sourceTree = "<group>"; };
+		E7495E091E617E5500C4F877 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Utils/Reachability.m; sourceTree = "<group>"; };
+		E7495E0B1E617E6900C4F877 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Utils/Utils.h; sourceTree = "<group>"; };
+		E7495E0C1E617E6900C4F877 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Utils/Utils.m; sourceTree = "<group>"; };
 		E7E7EE501E4EB859002F1F2A /* Jokes Juke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jokes Juke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7EE541E4EB859002F1F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E7EE5D1E4EB859002F1F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		E79D93C21E4ED546008F389C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E79D93C31E4ED55C008F389C /* Utils.h */,
-				E79D93C41E4ED55C008F389C /* Utils.m */,
+				E7495E0B1E617E6900C4F877 /* Utils.h */,
+				E7495E0C1E617E6900C4F877 /* Utils.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -196,8 +196,8 @@
 		E79D93C61E4ED631008F389C /* Reachibility */ = {
 			isa = PBXGroup;
 			children = (
-				E79D93C71E4ED641008F389C /* Reachability.h */,
-				E79D93C81E4ED641008F389C /* Reachability.m */,
+				E7495E081E617E5500C4F877 /* Reachability.h */,
+				E7495E091E617E5500C4F877 /* Reachability.m */,
 			);
 			name = Reachibility;
 			sourceTree = "<group>";
@@ -654,18 +654,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79D93C51E4ED55C008F389C /* Utils.m in Sources */,
 				E7495DE61E615EDA00C4F877 /* JokesRequest.m in Sources */,
 				E7495DFD1E615FA300C4F877 /* JokeTableViewCell.m in Sources */,
 				E7495DF41E615F4000C4F877 /* Jokes.m in Sources */,
+				E7495E0D1E617E6900C4F877 /* Utils.m in Sources */,
 				E7495DF31E615F4000C4F877 /* Joke.m in Sources */,
 				E7495DEE1E615F2A00C4F877 /* JokesService.m in Sources */,
 				E7495E071E615FCD00C4F877 /* ViewController.m in Sources */,
 				E7495DE91E615EF200C4F877 /* JokesFacade.m in Sources */,
 				E7495DF71E615F7A00C4F877 /* JokesModelView.m in Sources */,
 				E7495E061E615FCD00C4F877 /* AppDelegate.m in Sources */,
+				E7495E0A1E617E5500C4F877 /* Reachability.m in Sources */,
 				E7E7EE551E4EB859002F1F2A /* main.m in Sources */,
-				E79D93C91E4ED641008F389C /* Reachability.m in Sources */,
 				E7495DFC1E615FA300C4F877 /* JokesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
