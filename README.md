@@ -1,7 +1,7 @@
 # Jokes-Juke
 Jokes Juke (Objective-C)
 
-This is a simple application which fetches the Jokes from icndb and displayes on the. I have tried to cover the following in this project. This project will help in simplyfing the use and integration of RestKit and the object mapping. The implementation of MVVM and last but not the least, the dependancy managment of the framework through coca pods.
+This is a simple application which fetches the Jokes from icndb and display on the screen. I have tried to cover the following in this project. This project will help in simplyfing the use and integration of RestKit and the object mapping. The implementation of MVVM and last but not the least, the dependancy managment of the framework through coca pods.
 
 # Controls
  1. TableViewController
